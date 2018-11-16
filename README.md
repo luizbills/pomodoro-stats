@@ -10,7 +10,7 @@ Generate pomodoro stats
 
 ```js
 const pomodoroStats = require('pomodoro-stats');
-const stats = pomodoroStats('2:30');
+const stats = pomodoroStats('2:30'); // hh:mm format 
 
 console.log(stats);
 /*

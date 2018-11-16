@@ -46,3 +46,5 @@ const getPomodoroStatistics = (time, _options = {}) => {
 
     return stats;
 }
+
+module.exports = getPomodoroStatistics;

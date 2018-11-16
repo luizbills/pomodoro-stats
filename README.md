@@ -8,7 +8,7 @@ Generate pomodoro stats
 
 ## Usage
 
-```
+```js
 const pomodoroStats = require('pomodoro-stats');
 const stats = pomodoroStats('2:30');
 

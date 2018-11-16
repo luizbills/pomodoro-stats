@@ -31,7 +31,7 @@ const getPomodoroStatistics = (time, _options = {}) => {
     while (current >= options.pomodoro) {
         current -= options.pomodoro;
         stats.pomodoros++;
-        if (stats.pomodoros % 4 === 0) {
+        if (stats.pomodoros % options.longPauseAfter === 0) {
             if (current >= options.longPause) {
                 stats.longPauses++;
                 current -= options.longPause;

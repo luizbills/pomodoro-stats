@@ -9,8 +9,8 @@ Generate pomodoro stats
 ## Usage
 
 ```js
-const pomodoroStats = require('pomodoro-stats');
-const stats = pomodoroStats('2:30'); // hh:mm format 
+const time2pomodoros = require('pomodoro-stats').time2pomodoros;
+const stats = time2pomodoros('2:30'); // hh:mm format 
 
 console.log(stats);
 /*

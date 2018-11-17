@@ -4,7 +4,7 @@ Generate pomodoro stats
 
 ## Install
 
-[TODO]
+`npm i pomodoro-stats`
 
 ## Usage
 
@@ -24,3 +24,7 @@ outputs:
 }
 */
 ```
+
+### CLI
+
+`npx pomodoro-stats 2:30`

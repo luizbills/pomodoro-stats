@@ -1,0 +1,32 @@
+{
+  "name": "pomodoro-stats",
+  "version": "1.0.0",
+  "description": "Generate pomodoro stats",
+  "main": "src/index.js",
+  "bin": {
+    "pomodoro-stats": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizbills/pomodoro-stats.git"
+  },
+  "keywords": [
+    "pomodoro"
+  ],
+  "author": "Luiz Bills",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/luizbills/pomodoro-stats/issues"
+  },
+  "homepage": "https://github.com/luizbills/pomodoro-stats#readme",
+  "dependencies": {
+    "caporal": "^1.1.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
